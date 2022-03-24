@@ -1,0 +1,91 @@
+/* --- MI simulador de Movil ---*/
+html{
+    background: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+body{
+    width: 360px;
+    height: 740px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 40px;
+    font-family: sans-serif;
+    outline: 12px black solid;
+    box-shadow:10px 8px 20px rgba(0,0,0,.8); 
+      
+    transition:0.3s;
+    position: absolute;
+}
+  
+html:active body{
+    transform:rotate(90deg);
+}
+  
+body:active{
+    transform:rotate(0) !important;
+}
+  
+ /* ----------  */
+header{
+    height: 20px;
+    background: rgba(0,0,0,0.9);
+    z-index: -1;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+h1{
+    text-align: center;
+    background: rgba(32, 178, 171, 0.561);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 40px;
+    color: darkcyan;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    box-shadow: 4px 4px 8px rgba(0,0,0,.3);
+
+    transition: 0.3s;
+}
+
+h1:hover{
+    transform: rotate(-5deg);
+}
+
+img{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    border: solid 1px black;
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-around;
+}
+  
+button{
+    border-radius: 10px;
+    background: rgba(32, 178, 171, 0.561);
+    color: darkcyan;
+    border: none;
+    padding:5px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,.3);
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+
+i{
+    color: white;
+}
+  
