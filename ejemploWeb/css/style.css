@@ -1,0 +1,182 @@
+/* Importación de fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+/* body *{
+    outline: 1px solid red;
+    padding: 5px;
+}
+ */
+
+/* comienzo del body */
+h1{
+    font-family: 'Pacifico', sans-serif;
+    color: cadetblue;
+    text-shadow: 4px 4px 6px rgba(95, 158, 160, 0.774);
+    font-size: 48px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Permanent Marker', sans-serif;
+    color: rgba(17, 37, 19, 0.712) ;
+    letter-spacing: 3px;
+}
+
+.adentro{
+    margin-top: -10px;
+}
+
+p{  
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+
+body{
+    margin: 0 auto; 
+    max-width: 960px;
+
+    background: linear-gradient(rgba(231, 229, 79, 0.829),rgba(17, 37, 19, 0.712)) ;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul.cursos li a img{
+    max-width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+    margin-top: 20px;
+    filter: grayscale(100%);
+    /* revisar css-tricks y la propiedad css filter
+    ver en codepen.io/stoumann/pen/MWeNmyb */
+}
+
+ul.cursos li a img:hover{
+    
+    filter: grayscale(0%);
+    
+}
+
+ul{
+    list-style: none;
+    padding-left: 0%;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(200, 198, 67, 0.829);
+}
+
+main, header{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.2);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    background: #000;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+button{
+    background: white;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    color: lightseagreen;
+    padding: 8px 4px;
+
+    transition: 0.8s;
+}
+button:hover{
+    background: lightseagreen;
+    color: white;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.cursos {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+    width: 100%;
+    justify-content: sp;
+        
+}
+
+ul.cursos li a{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main h4{
+    background: url(../img/blog.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+    margin: 0 -20px;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    text-align: center;
+}
+
+/* media query para móvil */
+@media(max-width: 600px){
+    ul.cursos{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        align-items: stretch;
+        justify-content: space-around;
+        
+    }
+
+    a img{
+        max-width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    button{
+        width: 20px;
+    }
+    
+
+}
+
+
+
