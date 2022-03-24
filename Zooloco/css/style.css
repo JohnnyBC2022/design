@@ -1,0 +1,115 @@
+*{
+    /* outline: solid 1px red; */
+   margin: 0;
+   padding: 0;
+   
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/952/839/large_2x/jungle-cartoon-background-free-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 900px;
+    min-width: 320px;
+    margin: 20px auto;
+    width: 90%;
+    
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    height: 500px;
+
+}
+h1,p{
+    text-align: center;
+    color: brown;
+    margin-bottom: 40px;
+}
+
+h1{
+    animation: parpadeo 2s infinite;
+    font-size: 72px;
+}
+
+p{
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#botonera{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+    
+}
+
+button{
+    background: none;
+    color: brown;
+    border: solid 2px brown;
+    border-radius: 5px;
+    padding: 5px;
+
+    transition: 0.3s;
+    
+}
+button:hover{
+    background: brown;
+    color: white;
+    letter-spacing: 2px;
+}
+#cabezas {
+    width: 170px;
+    height: 120px;
+    background-image: url(img/cabeza_el.png);
+    background-size: cover;
+    
+    
+    
+    
+    
+}
+
+#cuerpos {
+    width: 170px;
+    height: 120px;
+    background-image: url(img/cuerpo_el.png);
+    background-size: cover;
+    position: relative;
+    margin-left: -170px;
+    margin-top: 110px;
+    z-index: -1;
+}
+
+#patas {
+    width: 170px;
+    height: 120px;
+    background-image: url(img/patas_el.png);
+    background-size: cover;
+    position: relative;
+    margin-left: -170px;
+    margin-top: 200px;
+    
+    
+}
+
+@keyframes parpadeo {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
