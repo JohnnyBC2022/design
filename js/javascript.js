@@ -1,4 +1,4 @@
-const e1= document.getElementById('galeria');
+const e1= document.getElementById('ejercicios');
 const e2= document.getElementById('btn_cambiar');
 
 function cambiar() {
