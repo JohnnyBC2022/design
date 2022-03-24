@@ -23,17 +23,27 @@ header{
     align-items: center;
     box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.5);
     margin-bottom: 40px;
+    border: grey 1px solid;
 }
 
-h1,h2{
+h1, header h2 {
     color: antiquewhite;
     margin: 10px;
 }
+
+main h2{
+    margin: 20px auto;
+    color: burlywood;
+}
 a{text-decoration: none; color: black;}
 
-img{
+ul#ejercicios img{
     max-width: 100%;
+    border-radius: 10px;
+    border: solid 2px grey;
+    
 }
+
 ul#ejercicios,
 ul.tags{
     list-style: none;
@@ -44,9 +54,9 @@ ul.tags{
 }
 
 ul#ejercicios > li{
-    margin-top: 20px;
+    
     width: 200px;
-    border: grey 1px solid;
+    border: grey 3px solid;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
