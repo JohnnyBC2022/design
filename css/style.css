@@ -128,12 +128,12 @@ ul.tags li.figma{
 
 
 
-ul#galeria.rejilla li { border-radius:20px !important; max-width:210px;}
-ul#galeria.rejilla li img{display: block;max-width: 196px;}
-ul#galeria.rejila:hover img{ border-radius:18px;}
+ul#ejercicios.rejilla li { border-radius:20px !important; max-width:210px;}
+ul#ejercicios.rejilla li img{display: block;max-width: 196px;}
+ul#ejercicios.rejila:hover img{ border-radius:18px;}
 
 /* list */
-ul#galeria.lista > li{ width:100%; flex-direction: row; border-radius:6px;}
-ul#galeria.lista > li a{display:flex;}
-ul#galeria.lista img{ height: 36px;margin: 0 16px 0 0;border-radius: 4px;}
-ul#galeria.lista >li:hover img{ margin-right:30px; transform:scale(1.18); }
+ul#ejercicios.lista > li{ width:100%; flex-direction: row; border-radius:6px;}
+ul#ejercicios.lista > li a{display:flex;}
+ul#ejercicios.lista img{ height: 36px;margin: 0 16px 0 0;border-radius: 4px;}
+ul#ejercicios.lista >li:hover img{ margin-right:30px; transform:scale(1.18); }
