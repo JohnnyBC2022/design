@@ -1,0 +1,73 @@
+:root{
+    --color:lightseagreen; /* así podemos definir el color corporativo */
+    --font:sans-serif;
+    --espacio:20px;
+    --radio:10px;
+}
+
+body{
+    background: var(--color);
+    font-family: var(--font);
+}
+
+header, main, footer{
+    background: white;
+    padding: var(--espacio);
+
+    max-width: 960px;
+    margin: calc(var(--espacio) / 2) auto 0 auto; /* se puede calcular */
+    border-radius: var(--radio);
+}
+
+h1{
+    color: var(--color);
+}
+
+h2{
+    color: var(--color);
+}
+
+a{
+    color: var(--color);
+}
+button{
+    background: var(--color);
+    padding: calc(var(--color) 2px solid);
+    color: white;
+    text-align: center;
+    border-radius: var(--radio);
+}
+
+button:hover{
+    background: white;
+    color: var(--color);
+    letter-spacing: 2px;
+}
+
+footer{
+    color: var(--color);
+}
+
+table, td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 4px;
+    text-align: center;
+}
+
+thead{
+    background: var(--color);
+    color: white;
+}
+
+.hora{
+    background: lightgray;
+}
+
+table tr:nth-child(even){
+    background: lightgoldenrodyellow;
+}
+
