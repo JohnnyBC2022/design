@@ -125,3 +125,10 @@ ul.tags li.figma{
     background:rgba(244, 240, 247, 0.8);; 
 }
 
+.lista{
+    color: red;
+}
+
+.rejilla{
+    color:blue;
+}

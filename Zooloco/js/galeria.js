@@ -1,19 +1,28 @@
 var cabezas = [
     'Elefante-cabeza.png',
     'Oso-cabeza.png',
-    'Perro-cabeza.png'
+    'Perro-cabeza.png',
+    'Buho-cabeza.png',
+    'Panda-cabeza.png',
+    'Tigre-cabeza.png'
 ];
 
 var cuerpos = [
     'Elefante-cuerpo.png',
     'Oso-cuerpo.png',
     'Perro-cuerpo.png',
+    'Buho-cuerpo.png',
+    'Panda-cuerpo.png',
+    'Tigre-cuerpo.png'
 ];
 
 var patas = [
     'Elefante-patas.png',
     'Oso-patas.png',
-    'Perro-patas.png'
+    'Perro-patas.png',
+    'Buho-patas.png',
+    'Panda-patas.png',
+    'Tigre-patas.png'
 ];
 
 var n_cabeza = 0;
