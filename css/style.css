@@ -128,9 +128,9 @@ ul.tags li.figma{
 
 
 
-ul#ejercicios.rejilla li { border-radius:20px !important; max-width:210px;}
+/* ul#ejercicios.rejilla li { border-radius:20px !important; max-width:210px;}
 ul#ejercicios.rejilla li img{display: block;max-width: 196px;}
-ul#ejercicios.rejila:hover img{ border-radius:18px;}
+ul#ejercicios.rejila:hover img{ border-radius:18px;} */
 
 /* list */
 ul#ejercicios.lista > li{ width:100%; flex-direction: row; border-radius:6px;}
