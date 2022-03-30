@@ -1,49 +1,60 @@
 /* Estilos generales de la página */
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Sansita+Swashed:wght@300&family=Seaweed+Script&family=Special+Elite&display=swap');
 * {
-     box-sizing: border-box; 
+    box-sizing: border-box;
+    /* outline: solid red 1px;  */
 }
 
 body { 
-  font-family: sans-serif;
-  background: url('https://i.pinimg.com/originals/71/96/33/719633a81bf5abcfb847916140caa0a1.jpg');
-  background-repeat: no-repeat;
-	background-size: cover;
-  
-  color:white;
-  margin: 10px auto;
-  width: 960px;
+ font-family: 'IM Fell English SC', serif;
+/*  font-family: 'Sansita Swashed', cursive;
+ font-family: 'Seaweed Script', cursive;
+ font-family: 'Special Elite', cursive;  */
+ background: url('https://i.pinimg.com/originals/71/96/33/719633a81bf5abcfb847916140caa0a1.jpg');
+ background-repeat: no-repeat;
+   background-size: cover;
+ 
+ color:white;
+ font-size: 24px;
+ margin: 10px auto;
+ width: 960px;
 }
 
 main {
-    width: 80%;
-    background: lightblue;
+   width: 80%;
+   background: rgba(34, 29, 15, 0.6);
+   
 }
 /* Estilo del tablero */
 .tablero {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  perspective:600px;
+ width: 400px;
+ height: 400px;
+ margin: 20px;
+ perspective:600px;
+
 }
 
 .tiradaBtn{
-  background:black;
-  color:white;
-  border:none;
-  margin:auto 0;
-  font-size:1.5em;
-  margin-top:1em;
-  width:200px;
+ background:black;
+ color:white;
+ border:none;
+ margin:auto 0;
+ font-size:1.5em;
+ margin-top:1em;
+ width:200px;
+ 
 }
 
 /* Estilos para el dado 3D */
 .cubo {
-  width:200px;
-  height: 200px;
-  position: relative;
-  transform-style: preserve-3d;
-  transform: translateZ(-100px);
-  transition: transform 1s;
+ width:200px;
+ height: 200px;
+ position: relative;
+ transform-style: preserve-3d;
+ transform: translateZ(-100px);
+ transition: transform 1s;
+ 
 }
 
 /* Estilos para la transformación y rotación del dado */
@@ -55,16 +66,16 @@ main {
 .cubo.mostrar-6 { transform: translateZ(-100px) rotateX(  90deg); }
 
 /* Estilos generales del dado */
- .cubo__cara {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 4px solid white;
-  line-height: 200px;
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
+.cubo__cara {
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ border: 4px solid white;
+ line-height: 200px;
+ font-size: 40px;
+ font-weight: bold;
+ color: white;
+ text-align: center;
 }
 
 /* Estilos individuales para cada cara */
@@ -85,6 +96,43 @@ main {
 label { margin-right: 10px; }
 
 #puerta{
-    margin-top: 40px;
-    display: none;
+margin: 40px auto;
+   display: none;
+   padding: 20px;
+
+}
+
+h1{
+text-align: center;
+padding: 20px;
+margin: 40px auto;
+color: rgb(223, 159, 86);
+
+}
+@keyframes parpadeo{
+    to {
+        visibility: hidden;
+      }
+    }
+    @keyframes parpadeo {
+      to {
+        visibility: hidden;
+      }
+}
+
+
+.parpa{
+    color: rgb(223, 159, 86);
+    animation: parpadeo 1s steps(5, start) infinite;
+    animation: parpadeo 1s steps(5, start) infinite;
+    margin-bottom: 100px;
+}
+
+p{
+padding:20px;
+margin: 40px auto;
+
+
+
+
 }
