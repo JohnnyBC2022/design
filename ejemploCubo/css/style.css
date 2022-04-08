@@ -1,0 +1,35 @@
+body{
+   transform-style: translateX(500px);
+   perspective: 4000px;
+   padding: 40px;
+}
+
+*{
+    position: absolute;
+    transform-style: perspective-3d;
+}
+.mundo{
+    transform: rotateY(0deg);
+    transition: 2s;
+}
+
+.mundo:hover{
+    transform: rotateY(364deg);
+}
+
+.suelo{
+    background-color: cyan;
+    width: 300px;
+    height: 300px;
+
+    transform: rotateX(80deg) translateX(250%);
+
+}
+
+.pared1{
+    background-color: cyan;
+    width: 300px;
+    height: 300px;
+
+    transform: rotateY(-80deg) translateY(-150px);
+}
