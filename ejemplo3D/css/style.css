@@ -11,11 +11,11 @@ body{
     width: 400px;
     height: 400px;
     color: yellow;
-    
+    margin: 0 auto;
     
     transition: .3s;
     
-    animation: texto_guay  8s infinite;
+    animation: texto_guay  16s infinite;
     
 }
 
@@ -33,7 +33,7 @@ h1 span{
 .cuadradin p{
     text-align: justify;
     hyphens: auto; /* para cortar las palabras */
-    line-height: 4px;
+    line-height: 20px;
 }
 
 @keyframes texto_guay{
