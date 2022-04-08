@@ -1,0 +1,50 @@
+body{
+    perspective: 1000px;
+    font-family: serif;
+    background-color: black;
+    max-width: 960px;
+    margin: 20 auto;
+}
+
+
+.cuadradin{
+    width: 400px;
+    height: 400px;
+    color: yellow;
+    
+    
+    transition: .3s;
+    
+    animation: texto_guay  8s infinite;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 span{
+    font-size: 18px;
+    display:block;
+}
+
+.cuadradin p{
+    text-align: justify;
+    hyphens: auto; /* para cortar las palabras */
+    line-height: 4px;
+}
+
+@keyframes texto_guay{
+    0%{
+        transform: rotateX(45deg) translateY(920px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        transform:  rotateX(70deg) translateY(-600px);
+        opacity: 0;
+    }
+}
