@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700" rel="stylesheet">
+    <title>Los 12 principios de la Animación</title>
+    <link rel="stylesheet" href="css/estiloso.css">
+</head>
+<body>
+   <header>
+	<nav>
+		<h1>Los 12 principios de la 
+			<span class="parpadea">Animación</span>
+		</h1>
+		<ul id="capturas">
+		</ul>
+	</nav>
+</header>
+<main>
+	<div class="ficha">
+		<div class="col1">
+			<img src="img/foto01.jpg" alt="" id="imagen">
+		</div>
+
+		<div class="col2">
+			<h2 id="titulo"></h2>
+			<h3 class="subtitulo" id="subtitulo"></h3>
+			<p id="descripcion"></p>
+			
+		</div>
+	</div>
+	<div class="botones">
+		<button onclick="anterior(); ocultarant(); mostrar();" id="ant">Anterior</button>
+		<button onclick="siguiente(); ocultarsig(); mostrar();" id="sig">Siguiente</button>
+	</div>
+	<div class="video">
+		
+		<h3 class="subtitulo">Video acerca de los 12 principios de la animación</h3>
+		<a href="http://www.youtube.com/watch?v=a6Ts93tsTZU" target="_blank" rel="noopener noreferrer">
+			<figure>
+				<img src="img/captura.jpg" alt="">
+			</figure>
+		</a>
+	</div>
+	<!-- esta ye pal chiste de la jornada -->
+	<div class="esposa"></div>
+
+	<footer>
+		Jonathan Baragaño | &copy;2022 
+	</footer>
+</main>
+</body>
+<script src="js/animacion.js"></script>
+</html>
